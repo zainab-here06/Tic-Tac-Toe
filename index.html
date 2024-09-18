@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="msg-container hide alert alert-info" role="alert">
+            <p id="msg"></p>
+        </div>
+        <main>
+            <h1 class="mb-4">Tic Tac Toe</h1>
+            <div class="d-flex justify-content-center mb-4">
+                <div class="game">
+                    <button class="box btn btn-light"></button>
+                    <button class="box btn btn-light"></button>
+                    <button class="box btn btn-light"></button>
+                    <button class="box btn btn-light"></button>
+                    <button class="box btn btn-light"></button>
+                    <button class="box btn btn-light"></button>
+                    <button class="box btn btn-light"></button>
+                    <button class="box btn btn-light"></button>
+                    <button class="box btn btn-light"></button>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button id="reset-btn" class="btn btn-dark mr-2">Reset Game</button>
+                <button id="new-btn" class="btn btn-dark">New Game</button>
+            </div>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="class9.js"></script>
+</body>
+</html>
